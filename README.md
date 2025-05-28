@@ -1,10 +1,10 @@
-# 💧 Projeto IoT – Monitoramento de Nível de Água com MQTT (1 Tanque)
+# **Projeto IoT – Medidor de Tanque**
 
 Este repositório implementa um sistema de **monitoramento de nível de água em um único tanque**, utilizando um ESP32, sensor ultrassônico HC-SR04, válvula, bomba e display LCD I2C. A comunicação ocorre via protocolo MQTT, e há visualização local via LCD, com possibilidade de integração futura com um dashboard (ex: Node-RED).
 
 ---
 
-## 📷 Protótipo
+## Protótipo
 
 > *Simulação feita no [Wokwi](https://wokwi.com/).*
 
@@ -12,7 +12,7 @@ Este repositório implementa um sistema de **monitoramento de nível de água em
 
 ---
 
-## 🔧 Componentes Utilizados
+## Componentes Utilizados
 
 * **Placa:** ESP32 DevKit v1 (simulado no Wokwi)
 * **Sensor:** 1× HC-SR04 ultrassônico
@@ -23,7 +23,7 @@ Este repositório implementa um sistema de **monitoramento de nível de água em
 
 ---
 
-## ⚙️ Como Funciona
+## Como Funciona
 
 1. **Leitura**
    O sensor HC-SR04 mede a distância até a superfície da água.
@@ -50,7 +50,7 @@ Este repositório implementa um sistema de **monitoramento de nível de água em
 
 ---
 
-## 📁 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```plaintext
 ├── sketch.ino       # Código principal do projeto
@@ -60,7 +60,7 @@ Este repositório implementa um sistema de **monitoramento de nível de água em
 
 ---
 
-## 🚀 Simulação no Wokwi
+## Simulação no Wokwi
 
 1. Acesse [https://wokwi.com](https://wokwi.com)
 2. Crie um novo projeto e faça upload de:
@@ -104,6 +104,6 @@ Este projeto utiliza comunicação via protocolo **MQTT** (Message Queuing Telem
 
 ---
 
-## 📜 Licença
+## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo `LICENSE` para mais detalhes.
